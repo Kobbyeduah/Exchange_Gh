@@ -4,8 +4,7 @@ import boto3
 
 def upload_to_s3(df, csv_filename, bucket_name):
     # Define AWS S3 credentials
-    aws_access_key_id = 'AKIA4MTWMMWF6KHO5JMI'
-    aws_secret_access_key = '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'
+
 
     # Save DataFrame to CSV
     df.to_csv(csv_filename, index=False)
