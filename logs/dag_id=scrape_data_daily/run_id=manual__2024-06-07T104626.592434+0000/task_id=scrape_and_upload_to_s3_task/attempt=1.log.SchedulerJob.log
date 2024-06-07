@@ -1,0 +1,1 @@
+[2024-06-07T10:47:17.747+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: scrape_data_daily.scrape_and_upload_to_s3_task manual__2024-06-07T10:46:26.592434+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

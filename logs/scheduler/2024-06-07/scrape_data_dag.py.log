@@ -1,0 +1,387 @@
+[2024-06-07T10:27:53.590+0000] {processor.py:161} INFO - Started process (PID=23906) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:27:53.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:27:53.595+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:27:53.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:27:53.639+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:27:53.628+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:27:53.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:27:53.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.110 seconds
+[2024-06-07T10:28:23.912+0000] {processor.py:161} INFO - Started process (PID=23963) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:23.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:28:23.916+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:28:23.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:23.990+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:28:23.980+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:28:23.992+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:24.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.133 seconds
+[2024-06-07T10:28:54.439+0000] {processor.py:161} INFO - Started process (PID=24021) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:54.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:28:54.474+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:28:54.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:54.848+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:28:54.793+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:28:54.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:28:54.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.535 seconds
+[2024-06-07T10:29:25.534+0000] {processor.py:161} INFO - Started process (PID=24080) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:25.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:29:25.538+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:29:25.538+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:25.560+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:29:25.556+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:29:25.562+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:25.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.070 seconds
+[2024-06-07T10:29:55.991+0000] {processor.py:161} INFO - Started process (PID=24140) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:55.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:29:55.996+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:29:55.995+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:56.020+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:29:56.015+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:29:56.021+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:29:56.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.071 seconds
+[2024-06-07T10:30:26.358+0000] {processor.py:161} INFO - Started process (PID=24199) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:26.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:30:26.365+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:30:26.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:26.390+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:30:26.385+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:30:26.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:26.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.098 seconds
+[2024-06-07T10:30:56.614+0000] {processor.py:161} INFO - Started process (PID=24258) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:56.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:30:56.617+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:30:56.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:56.638+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:30:56.634+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:30:56.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:30:56.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.060 seconds
+[2024-06-07T10:31:26.836+0000] {processor.py:161} INFO - Started process (PID=24315) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:26.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:31:26.841+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:31:26.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:26.868+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:31:26.863+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:31:26.870+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:26.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.082 seconds
+[2024-06-07T10:31:57.409+0000] {processor.py:161} INFO - Started process (PID=24372) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:57.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:31:57.414+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:31:57.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:57.481+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:31:57.474+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:31:57.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:31:57.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.132 seconds
+[2024-06-07T10:32:06.890+0000] {processor.py:161} INFO - Started process (PID=24388) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:06.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:32:06.895+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:32:06.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:06.973+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:32:06.965+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:32:06.980+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:07.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.140 seconds
+[2024-06-07T10:32:37.709+0000] {processor.py:161} INFO - Started process (PID=24447) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:37.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:32:37.715+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:32:37.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:37.761+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:32:37.756+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:32:37.763+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:32:37.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.133 seconds
+[2024-06-07T10:33:08.749+0000] {processor.py:161} INFO - Started process (PID=24512) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:08.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:33:08.756+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:33:08.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:08.777+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:33:08.774+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:33:08.779+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:08.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.085 seconds
+[2024-06-07T10:33:39.445+0000] {processor.py:161} INFO - Started process (PID=24572) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:39.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:33:39.452+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:33:39.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:39.484+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:33:39.474+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:33:39.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:33:39.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.112 seconds
+[2024-06-07T10:34:09.671+0000] {processor.py:161} INFO - Started process (PID=24631) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:09.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:34:09.676+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:34:09.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:09.696+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:34:09.692+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:34:09.698+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:09.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.076 seconds
+[2024-06-07T10:34:40.325+0000] {processor.py:161} INFO - Started process (PID=24690) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:40.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:34:40.343+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:34:40.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:40.592+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:34:40.566+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:34:40.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:34:40.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.378 seconds
+[2024-06-07T10:35:10.883+0000] {processor.py:161} INFO - Started process (PID=24749) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:10.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:35:10.889+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:35:10.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:10.914+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:35:10.908+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:35:10.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:10.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.078 seconds
+[2024-06-07T10:35:41.450+0000] {processor.py:161} INFO - Started process (PID=24808) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:41.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:35:41.454+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:35:41.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:41.474+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:35:41.469+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:35:41.476+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:35:41.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.071 seconds
+[2024-06-07T10:36:11.922+0000] {processor.py:161} INFO - Started process (PID=24867) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:11.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:36:11.927+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:36:11.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:11.951+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:36:11.945+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:36:11.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:11.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.078 seconds
+[2024-06-07T10:36:42.039+0000] {processor.py:161} INFO - Started process (PID=24926) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:42.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:36:42.045+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:36:42.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:42.067+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:36:42.062+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:36:42.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:36:42.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.083 seconds
+[2024-06-07T10:37:12.185+0000] {processor.py:161} INFO - Started process (PID=24985) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:12.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:37:12.191+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:37:12.190+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:12.236+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:37:12.226+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:37:12.239+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:12.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.132 seconds
+[2024-06-07T10:37:42.887+0000] {processor.py:161} INFO - Started process (PID=25043) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:42.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:37:42.891+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:37:42.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:42.914+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:37:42.909+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:37:42.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:37:42.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.067 seconds
+[2024-06-07T10:38:13.304+0000] {processor.py:161} INFO - Started process (PID=25102) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:38:13.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:38:13.308+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:38:13.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:38:13.330+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:38:13.326+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks'
+[2024-06-07T10:38:13.332+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:38:13.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.075 seconds
+[2024-06-07T10:42:54.038+0000] {processor.py:161} INFO - Started process (PID=25632) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:42:54.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:42:54.043+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:54.042+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:42:56.590+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:42:57.053+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.052+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:scrape_data_daily
+[2024-06-07T10:42:57.075+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.075+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:scrape_data_daily
+[2024-06-07T10:42:57.095+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.094+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:scrape_data_daily
+[2024-06-07T10:42:57.097+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.096+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:42:57.121+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.120+0000] {dag.py:3118} INFO - Creating ORM DAG for scrape_data_daily
+[2024-06-07T10:42:57.145+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:42:57.144+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:42:57.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 3.155 seconds
+[2024-06-07T10:43:27.391+0000] {processor.py:161} INFO - Started process (PID=25699) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:43:27.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:43:27.394+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:43:27.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:43:28.261+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:43:28.490+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:43:28.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:43:28.533+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:43:28.533+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:43:28.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 1.198 seconds
+[2024-06-07T10:43:59.400+0000] {processor.py:161} INFO - Started process (PID=25759) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:43:59.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:43:59.403+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:43:59.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:44:00.222+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:44:00.265+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:44:00.264+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:44:00.314+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:44:00.314+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:44:00.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.976 seconds
+[2024-06-07T10:44:30.915+0000] {processor.py:161} INFO - Started process (PID=25821) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:44:30.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:44:30.918+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:44:30.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:44:31.661+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:44:31.683+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:44:31.682+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:44:31.708+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:44:31.708+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:44:31.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.830 seconds
+[2024-06-07T10:45:02.644+0000] {processor.py:161} INFO - Started process (PID=25881) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:02.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:45:02.648+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:02.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:02.685+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:02.680+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/scrape_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/scrape_data_dag.py", line 4, in <module>
+    from tasks.scrape_data import scrape_data, merge_with_existing_csv
+ModuleNotFoundError: No module named 'tasks.scrape_data'
+[2024-06-07T10:45:02.688+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:02.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.088 seconds
+[2024-06-07T10:45:33.062+0000] {processor.py:161} INFO - Started process (PID=25939) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:33.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:45:33.065+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:33.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:33.938+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:33.959+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:33.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:45:34.140+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:34.140+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:45:34.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 1.145 seconds
+[2024-06-07T10:45:37.197+0000] {processor.py:161} INFO - Started process (PID=25949) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:37.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:45:37.200+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:37.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:38.181+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:45:38.211+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:38.210+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:45:38.249+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:45:38.249+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:45:38.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 1.102 seconds
+[2024-06-07T10:46:08.537+0000] {processor.py:161} INFO - Started process (PID=26009) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:08.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:46:08.539+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:46:08.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:09.190+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:09.215+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:46:09.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:46:09.391+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:46:09.390+0000] {dag.py:3954} INFO - Setting next_dagrun for scrape_data_daily to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2024-06-07T10:46:09.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 0.901 seconds
+[2024-06-07T10:46:39.800+0000] {processor.py:161} INFO - Started process (PID=26078) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:39.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:46:39.808+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:46:39.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:46.565+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:46:46.661+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:46:46.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:46:46.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 7.218 seconds
+[2024-06-07T10:47:18.152+0000] {processor.py:161} INFO - Started process (PID=26148) to work on /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:47:18.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scrape_data_dag.py for tasks to queue
+[2024-06-07T10:47:18.168+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:47:18.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:47:21.033+0000] {processor.py:840} INFO - DAG(s) 'scrape_data_daily' retrieved from /opt/airflow/dags/scrape_data_dag.py
+[2024-06-07T10:47:21.174+0000] {logging_mixin.py:188} INFO - [2024-06-07T10:47:21.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-07T10:47:21.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scrape_data_dag.py took 3.225 seconds
